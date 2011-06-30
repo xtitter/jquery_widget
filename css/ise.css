@@ -1,0 +1,14 @@
+/* 
+ * for ISE timeline specific stuff -- loads last 
+ */
+
+
+.ise-logo {
+    float:left;
+    width:162px;
+    height:20px;
+    background-image:url("../img/lhs-logo.gif");
+    background-repeat:no-repeat;
+    margin-top:4px;
+    margin-left:12px;
+}
