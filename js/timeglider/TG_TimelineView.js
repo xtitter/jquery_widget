@@ -81,7 +81,7 @@ timeglider.TimelineView
   */
  
   // in case custom event_modal fails, we need this object to exist
-  this._templates = {}
+  this._templates = {};
   
 	this._templates = {
 	    // allows for customized templates imported
@@ -108,6 +108,7 @@ timeglider.TimelineView
           "<div class='close-button'></div>"+
           "<h3>filter</h3>"+
           "<div class='timeglider-menu-modal-content'>"+
+          "<div class='timeglider-formline timeglider-filter-iconset'></div>" +
           "<div class='timeglider-formline'>show: "+
           "<input type='text' class='timeglider-filter-include'></div>"+
           "<div class='timeglider-formline'>hide: "+
