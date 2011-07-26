@@ -1,0 +1,71 @@
+<div class='tg-modal full_modal' id='ev_${id}_modal'>
+    <div class='full_modal_scrim'>
+    </div>
+    <div class='full_modal_panel'>
+        <!-- close button -->
+        <div class='full_modal_close'>
+        </div>
+        <!-- left column -->
+        <div class='full_modal_content'>
+            <div class='startdate'>
+                ${startdate}
+            </div>
+            <h4 id='title'>${title}</h4>
+            <div class='description'>
+                {{html description}}
+            </div>
+        </div>
+        <!-- right column -->
+        <div class='full_modal_links'>
+            <img src='${image}'>
+            <ul>
+                {{html links}}
+            </ul>
+        </div>
+		  
+		  <!-- extra ise stuff -->
+		  <div style="{display:block;clear:both;}"></div>
+        <div class='full_modal_ise_other'>
+            <ul>
+                <li>Category: ${ise_category}</li>
+                <li>Record Type: ${ise_record_type}</li>
+                <li>Contributor: ${ise_contributor}</li>
+                <li>Creator: ${ise_creator}</li>
+                <li>NSF Award Number: ${ise_nsf_award_number}</li>
+                <li>PI: ${ise_pi}</li>
+                <li>Funding Source: ${ise_funding_source}</li>
+                <li>URI: ${ise_uri}</li>
+                <li>Geo Coords: ${ise_geo_coords}</li>
+                <li>Access Inclusion: ${ise_access_inclusion}</li>
+                <li>Zipcode: ${ise_zipcode}</li>
+            </ul>
+        </div>
+		  
+		  <div class='full_modal_commentary'>
+		  <div class='full_modal_comment_header'>
+		    There are <span class='full_modal_comment_number'>0</span> comments.
+		    <div class='full_modal_add_comment_div'>
+		       <div class='full_modal_add_comment_button'>Add a comment</div>
+				 <div class='full_modal_add_comment'>
+               <div class='full_modal_add_comment_author'>
+					  Author: <input class='full_modal_add_comment_author_input' type='text'>
+					</div>
+               <div class='full_modal_add_comment_body'>
+					  Body: <input class='full_modal_add_comment_body_input' type='text'>
+					</div>
+				   <div class='full_modal_add_comment_submit'>
+                 Apply
+               </div>
+					<div class='full_modal_add_comment_cancel'>
+					  Cancel
+					</div>
+             </div>
+		    </div>
+		  </div>
+		  
+		  <div class='full_modal_comments'>
+		  <!-- each comment goes in here ...  see full_modal_comment.html -->
+        </div>
+
+		  </div>
+    </div>
